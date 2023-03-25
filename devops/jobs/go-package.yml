@@ -9,6 +9,6 @@ jobs:
     name: ci-workflow
     runs-on: ubuntu-latest
     steps:
-      - run: ../templates/.github/workflows/go-test.yml
-      - run: ../templates/.github/workflows/go-lint.yml
-      - run: ../templates/.github/workflows/codeql.yml
+      - run: ../templates/go-test.yml
+      - run: ../templates/go-lint.yml
+      - run: ../templates/codeql.yml
